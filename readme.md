@@ -16,8 +16,10 @@ add identity ssh-add ~/.ssh/id_rsa
 Set public  key in github from .ssh/id_rsa.pub 
 run command ssh -T git@github.com
 git push -u origin master
+git remote --to see 
 ==================================heroku setting===============\
 heroku -v
 heroku login
 heroku keys:add
 heroku create weather-app
+git push heroku master
