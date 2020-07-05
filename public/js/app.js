@@ -1,4 +1,3 @@
-console.log('this is coming from client side javscript');
 const fecthLocation = (location) => {
     var messageOne = document.querySelector('#message-1');
     var messageTwo = document.querySelector('#message-2');
