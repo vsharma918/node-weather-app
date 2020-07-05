@@ -23,3 +23,4 @@ heroku login
 heroku keys:add
 heroku create weather-app
 git push heroku master
+heroku logs --tail
